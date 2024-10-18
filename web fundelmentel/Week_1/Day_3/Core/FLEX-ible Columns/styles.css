@@ -1,0 +1,42 @@
+.row{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #649EA0;
+    width: 150px;
+    height: 80px;
+
+    
+}
+.row2{
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.col1{
+    flex: 1 1 auto;
+}
+.col2{
+    flex: 2 1 auto;
+}
+.row3{
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.col3{
+    flex: 2 1 auto;
+}
+.col4{
+    flex: 3 1 auto;
+}

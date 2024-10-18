@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+.navbar h1 {
+    margin-left: 20px;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.signout-btn {
+    margin-right: 20px;
+    padding: 10px 15px;
+    background-color: #00a5af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.signout-btn:hover{
+    background-color: #007f87;
+}
+
+.container {
+    display: flex;
+    margin: 40px auto;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+.left-section {
+    width: 60%;
+}
+
+.right-section {
+    width: 35%;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.location {
+    text-align: center;
+    color: #666;
+}
+
+.description {
+    text-align: center;
+    color: #555;
+    margin: 10px 0;
+}
+
+.edit-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.education {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.education-item h4 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.education-item p {
+    color: #666;
+}
+
+.connection-requests, .user-connections {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.connection-requests h4, .user-connections h4 {
+    margin-bottom: 15px;
+}
+
+.request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.request p {
+    margin-right: auto;
+}
+
+.request button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-connections ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.user-connections ul li {
+    margin-bottom: 5px;
+}
+
+.user-connections a {
+    color: #007bff;
+    text-decoration: none;
+}
+.bb{
+    border-radius: 50px;
+    width: 55px; 
+} 
+.b{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    
+}
+img{
+    border-radius: 50px;
+    width: 55px; 
+}
+h4{
+    background-color: #333;
+    color: white;
+    padding: 25px;
+}
+h3{
+    background-color: #333;
+    padding: 23px;
+    color: white;
+}
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lien{
+    display: flex;
+    gap: 20%; 
+}
+button{
+    background-color: #FFD966;
+    color: black;
+    box-shadow: 3px 3px 0px black;
+    width: 80px;
+    height: 40px;
+    border: solid;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    padding: 25px;
+    gap: 20px;
+    width: 44em;
+    height: 150px;
+
+}
+p{
+    font-size: 25px;
+}.container{
+    padding: 50px 140px;
+}
+h1{
+    flex: 1;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Class: */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Favorite Button Style (.btn) */
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+  
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* .row and .col Classes (FLEX-Ible Columns) */
+

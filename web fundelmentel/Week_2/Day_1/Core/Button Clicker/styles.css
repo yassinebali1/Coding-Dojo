@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 800px;
+    background-color: white;  
+    dis
+    
+}
+.navbar{
+    display: flex;
+    align-items : center;
+    justify-content: space-around;
+    background-color: #CCCCCC ;
+    padding: 10px;  
+}
+.navbar input{
+    font-size: 1.5em;
+}
+.navbar button{
+    background-color: #2B78E4;
+    color: white;
+    width: 6em;
+    height: 2em;
+    box-shadow: 4px 3px 0px black;
+}
+.box{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.ninjas{
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+.ninja1  {
+    border: solid black;
+    display: flex;
+    padding: 30px;
+    width: 500px;
+    
+}
+.ninja1  {
+
+}
+.dojonary{ 
+    border:  solid rgb(9, 9, 10);
+    margin-left: 10px;
+    width: 220px; 
+    height: 150px; 
+
+}
+
+.byellow{
+    background-color: #FFD966;
+    color: black;
+    box-shadow: 3px 2px 1px;
+    width: 100px;
+    height: 25px;
+    margin-top: 25px;
+}
+.bgreen{
+    background-color: #93C47D ;
+    color: black;
+    box-shadow: 3px 2px 1px;
+    width: 100px;
+    height: 25px;
+    margin-top: 25px;
+}
+.dojonary .p1{
+    padding: 50px;
+
+}
+
+
+
