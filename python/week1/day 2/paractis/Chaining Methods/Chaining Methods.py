@@ -14,7 +14,7 @@ class User:
         print(f"Age: {self.age}")
         print(f"Rewards Member: {self.is_rewards_member}")
         print(f"Gold Card Points: {self.gold_card_points}")
-        return self  # Returning self to allow chaining
+        return self 
 
     def enroll(self):
         if not self.is_rewards_member:
