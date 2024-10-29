@@ -1,0 +1,19 @@
+INSERT INTO users (first_name, last_name) VALUES ('ayhem', 'hasayoun'),('tasnime', 'toumi'),('arij', 'toumi'),('yousef', 'ari'),('daimen', 'selvador');
+INSERT INTO books (titel, num_of_page) VALUES ('C Sharp', 300),('Java', 450),('Python', 500),('PHP', 350),('Ruby', 400);
+UPDATE users SET first_name = 'Bill' WHERE id = 4;
+INSERT INTO favorites (user_id, book_id) VALUES (1, 1),(1, 2);
+INSERT INTO favorites (user_id, book_id) VALUES (2, 1),(2, 2),(2, 3);
+SELECT users.* FROM users 
+JOIN favorites ON users.id = favorites.user_id 
+WHERE favorites.book_id = 3;
+DELETE FROM favorites WHERE user_id = 1 AND book_id = 3;
+INSERT INTO favorites (user_id, book_id) VALUES (5, 2);
+SELECT books.* FROM books 
+JOIN favorites ON books.id = favorites.book_id 
+WHERE favorites.user_id = 3;
+SELECT users.* FROM users 
+JOIN favorites ON users.id = favorites.user_id 
+WHERE favorites.book_id = 5;
+
+
+
