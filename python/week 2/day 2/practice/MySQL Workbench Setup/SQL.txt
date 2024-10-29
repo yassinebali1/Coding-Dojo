@@ -1,0 +1,8 @@
+select * from names;
+INSERT INTO names (name) VALUES ('yassine');
+INSERT INTO names (name) VALUES ('yassine'), ('Alice');
+UPDATE names SET name = 'yassine' WHERE name = 'John';
+delete from names where name ='yassine';
+
+
+
