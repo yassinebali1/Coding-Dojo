@@ -31,14 +31,7 @@ def login():
         return redirect('/')
     session['user_id']=user.id
     return redirect('/recipes')
-# @app.route('/dashboard')
-# def home():
-#     if  'user_id' in session:
-#         messages=recipes.my_messages({'id':session["user_id"]})
-#         return render_template('home.html',messages=messages,liste=User.get_all({'id':session["user_id"]}),login_user=User.get_one_by_id({'id':session["user_id"]}),)
-#     else:
-#         return redirect('/')
-@app.route('/logout')
+@app.route("/logout",methods=['POST'])
 def logout():
     session.clear()
     return redirect('/')

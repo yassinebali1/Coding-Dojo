@@ -40,9 +40,9 @@
                     <td>{{recipe.poster}}</td>
                     <td>
                         <a href="/recipes/{{recipe.id}}">View recipe</a> |
-                        {% if recipes.user_id == user.id %}
-                        <a href="/recipe/edit/{{recipe.id}}">Edit recipe</a> |
-                        <a href="/recipe/delete/{{recipe.id}}">Delete recipe</a> |
+                        {% if recipe.user_id == session['user_id'] %}
+                         <a href="/recipe/edit/{{recipe.id}}">Edit recipe</a> |
+                         <a href="/recipe/delete/{{recipe.id}}">Delete recipe</a> |
                         {% endif %}
                     </td>
                 </tr>
